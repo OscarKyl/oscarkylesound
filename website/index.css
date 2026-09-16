@@ -1,0 +1,192 @@
+
+
+body {
+    margin: 0;
+    background: url("assets/images/LivingRoom.JPG") no-repeat center center fixed; 
+  background-size: 100%;
+  text-align: center;
+  background-color: rgb(10,10,10);
+  color: rgb(245, 244, 208);
+  font-family: "Cormorant Garamond", serif;
+}
+
+#container {
+    width: 60%
+    margin: auto;
+}
+
+header {
+    margin-top: -20px;
+    color: white;
+}
+
+header p {
+    font-size: 200%;
+    position: absolute;
+    right: 200px;
+    text-align: right;
+        
+}
+
+
+.Email {
+  position: relative;
+  left: 30%;  
+  color: rgb(245, 244, 208);
+}
+
+.Bandcamp {
+    position: absolute;
+    left: 200%;   
+    color: rgb(245, 244, 208);
+}
+
+.Insta {
+    position: absolute;
+    left: 370%;   
+    color: rgb(245, 244, 208);
+}
+
+h1 {
+    font-size:450%;
+    position: relative;
+    top: 25px;
+}
+
+h2 {
+    font-size:175%;
+     position: relative;
+bottom: 10px;
+}
+
+
+@media screen and (max-width:768px){
+    #container {
+    width: 200%
+    font-size: 300%    
+}
+}
+
+.hero {
+    height: 800px; 
+}
+
+
+.content {
+    text-align: left;
+    color: rgb(245, 244, 208);
+    padding: 300px; 
+    background-size: 100%;
+       
+}
+
+h3 {
+    text-align:left;
+     position: absolute;
+    top: 720px;
+    left: 150px;
+    font-size: 400%;
+}
+
+.Bio {
+    text-align:left;
+     position: absolute;
+     width: 800px;
+    top: 860px;
+    left: 150px;
+    font-size: 150%;
+    line-height: 1.5;
+}
+
+.Bio2 {
+    text-align:left;
+     position: absolute;
+     width: 800px;
+    top: 950px;
+    left: 150px;
+    font-size: 150%;
+     line-height: 1.5;
+}
+
+
+.portofolio {
+   text-align: left;
+    color: rgb(245, 244, 208);
+    padding: 350px; 
+    background-size: 80%;      
+}
+
+h4 {
+    text-align:right;
+     position: absolute;
+    top: 1100px;
+    right: 150px;
+    font-size: 400%;
+}
+
+#Summerhouse {
+    content:url("assets/images/Summerhouse.jpg");
+    position: absolute;
+     height: 350px;
+ width: auto; 
+    top: 1325px;
+    left: 6%;    
+}
+
+#Luz {
+    content:url("assets/images/Luz2.jpeg");
+    position: absolute;
+     height: 350px;
+ width: auto; 
+    top: 1325px;
+    left: 37.5%;  
+}
+
+#dec23 {
+    content:url("assets/images/dec23untitled.jpg");
+    position: absolute;
+     height: 350px;
+ width: auto; 
+    top: 1325px;
+    right: 6%;  
+}
+
+#berlin {
+    content:url("assets/images/berlinrings.jpg");
+    position: absolute;
+     height: 350px;
+ width: auto; 
+    top: 1745px;
+    left: 6%;  
+}
+
+#withtheground {
+    content:url("assets/images/withtheground.jpg");
+    position: absolute;
+     height: 350px;
+ width: auto; 
+    top: 1745px;
+    left: 37.5%;  
+}
+    
+    #diss {
+    content:url("assets/images/disappearer.jpg");
+    position: absolute;
+     height: 350px;
+ width: auto; 
+    top: 1745px;
+    right: 6%;  
+    }
+        
+    footer {
+    margin-bottom: 10px;
+    font-size:120%;
+}
+
+
+
+
+
+
+
+
